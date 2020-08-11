@@ -1,10 +1,12 @@
 import React from "react"
 
+import Head from "../components/head"
 import Layout from "../components/layout"
 
 const Jokes = () => {
   return (
     <Layout>
+      <Head title="Jokes" />
       <h1>CAUTION! Read at your own risk.</h1>
       <div>
         <ul>
